@@ -48,20 +48,19 @@
     margin-right: auto;
     margin-left:auto;
     margin-top: 30px;
-    height: 20vh;
-    width: 65vw;
+    height: 170px;
+    width: 900px;
     background-color: #c2c2c2;
     border-radius: 20px;
-
 }
 .variants_field__variant_name_FIPI-1 {
     font-size: 26px;
     font-family: "Ubuntu", sans-serif;
     font-weight: 400;
     font-style: normal;
-    padding-top: 30px;
+    /* padding-top: 30px; */
     padding-left: 40px;
-    margin-top: 0px;
+    /* margin-top: 0px; */
 }
 .variant_field__header {
     font-size: 27px;
@@ -70,7 +69,8 @@
     font-style: normal;
     text-align: center;
     padding-top: 25px;
-    margin-bottom: 0px;
+    padding-bottom: 30px;
+    /* margin-bottom: 0px; */
 }
 .link {
     color: blue;
@@ -80,8 +80,8 @@
     margin-right: auto;
     margin-left:auto;
     margin-top: 30px;
-    height: 20vh;
-    width: 65vw;
+    height: 170px;
+    width: 900px;
     background-color: #c2c2c2;
     border-radius: 20px;
 }
@@ -90,24 +90,88 @@
     font-family: "Ubuntu", sans-serif;
     font-weight: 400;
     font-style: normal;
-    padding-top: 30px;
     padding-left: 40px;
-    margin-top: 0px;
-}
-.variant_name {
-    text-decoration: underline;
+    /* margin-bottom: 0px; */
 }
 .variants_field__solution-of-task {
     margin-right: auto;
     margin-left:auto;
     margin-top: 30px;
-    height: 20vh;
-    width: 65vw;
+    height: 170px;
+    width: 900px;
     background-color: #c2c2c2;
     border-radius: 20px;
 }
 .open_text {
     font-size: 20px;
+}
+.text1 {
+    display: inline-block;
+}
+.text2 {
+    display: inline-block;
+    padding-top: 10px;
+}
+.block {
+    position: relative;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+}
+/* .blue {
+    width: 200px;
+    height: 200px;
+    background-color: #a35555;
+    position: relative;
+    top: 0;
+} */
+.try {
+    display: block;
+    position: relative;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+.watching {
+    display: block;
+    position: relative;
+    /* top: -107px; */
+    right: 0px;
+    bottom: 0px;
+    margin-right: 15px;
+    /* margin-bottom: auto; */
+    /* margin-top: auto; */
+}
+.image1 {
+    display: flex;
+    justify-content: right;
+    position: relative;
+    top: -107px;
+}
+.separator {
+    width: 100%;
+    height: 1px;
+    background-color: black;
+}
+.faz {
+    display: flex;
+    justify-content: center;
+}
+.image2 {
+    display: flex;
+    justify-content: left;
+    position: relative;
+    top: 0;
+}
+.check1 {
+    margin-top: -10px;
+    margin-left: -3px;
+}
+.check2 {
+    margin-left: 80%;
+    margin-top: -100px;
+    margin-right: 5px;
 }
     </style>
     <div class="project">
@@ -121,11 +185,15 @@
         <div class="variants_field">
             <div class="variants_field__fipi">
                 <p class="variant_field__header">Варианты ФИПИ 2026</p>
-                <p class="variants_field__variant_name_FIPI-1"><a class="variant_name" href="https://4ege.ru/matematika/76070-demoversii-ege-2026-po-matematike.html" target="_blank">Демоверсия ЕГЭ 2026</a> (<a class="link" href="https://www.youtube.com/watch?v=AgIv8PvtZOc" target="_blank">ссылка на разбор</a>)</p>
+                <!-- <div class="separator"></div> -->
+                <p class="variants_field__variant_name_FIPI-1">Демоверсия ЕГЭ 2026
+                <a href="/files/ДЕМО ЕГЭ2026 от ИЛЬИЧА.pdf" download><img class="check1" src="https://cdn-icons-png.flaticon.com/512/29/29099.png" width="46" alt=""></a>
+                <a href="https://www.youtube.com/watch?v=AgIv8PvtZOc" target="_blank"><img class="check2" src="https://images.icon-icons.com/509/PNG/512/YouTube_icon-icons.com_49934.png" width="160" alt=""></a>
+                
             </div>
             <div class="variants_field_school-pifagor">
                 <p class="variant_field__header">Школа Пифагора 2026</p>
-                <p class="variants_field__variant_name_school-pifagor-1"><a class="variant_name">Вариант 1</a>(<a class="link_demo_fipi" href="" target="_blank">ссылка на разбор</a>) (будет доступно 31 августа)</p>
+                <p class="variants_field__variant_name_school-pifagor-1">Вариант 1 (<a class="link" href="" target="_blank">ссылка на разбор</a>) (будет доступно 31 августа)</p>
             </div>
         </div>
         <p class="chapter_name">Решение заданий</p>
@@ -133,8 +201,8 @@
                 <p class="variant_field__header">Демоверсия ЕГЭ 2026</p>
         </div>
     </div>
-    <a href="/files/ДЕМО ЕГЭ2026 от ИЛЬИЧА.pdf" download>Скачать</a>  
 </body>
+
 
 
 
